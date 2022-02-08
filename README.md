@@ -11,7 +11,7 @@ By using these codes analyze, and run the console/terminal/command line applicat
  To use a method, you need to: _Define the method_ and ****_Call the method_****
  The syntax for defining a method in C# is as follows: 
  
-    **<****Access Specifier****>** **<****Return Type****>** **<****Method Name****>****(****Parameter List****)**
+    **<****Access Specifier****>** **<****Return Type****>** **<****Method Name****>(****Parameter List****)**
     **{**
    **Method Body**
     **}**
