@@ -32,6 +32,8 @@ By using these codes analyze, and run the console/terminal/command line applicat
 19. Find an example of object composition.
 
 20. **What is overloading/subtype polymorphism?**
+The word polymorphism means having many forms. In object-oriented programming paradigm, polymorphism is often expressed as '**_one interface, multiple functions_**'. 
+Polymorphism can be _**static _or_ dynamic**_. In static polymorphism, the response to a function is determined at the compile time. In dynamic polymorphism, it is decided at run-time.
 
 21. Find an example of interface implementation.
 22. Find an example of a super class.
