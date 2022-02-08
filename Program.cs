@@ -8,6 +8,7 @@ namespace Organisms
   {
     static void Main(string[] args)
     {
+      //example of variable declaration and assignment
       int STEPS = 100;
       int ORGANISMS = 25;
       int NODES = 36;
@@ -67,7 +68,7 @@ namespace Organisms
 
   class MultiSimFactory : ISimFactory
   {
-    ICollection<ISimFactory> factories = new List<ISimFactory>();
+    ICollection<ISimFactory> factories = new List<ISimFactory>(); //Polymorphism can be used whereever ISimFactory is expected
 
     public MultiSimFactory () {}
     public MultiSimFactory (ICollection<ISimFactory> factories)
@@ -85,7 +86,7 @@ namespace Organisms
     {
       List<ISim> sims = new List<ISim>();
       foreach (ISimFactory factory in factories)
-        sims.Add(factory.Make(nodes));
+        sims.Add(factory.Make(nodes)); //the virtual method Add is invoked on each of the derived classes
       return new MultiSim(sims);
     }
   }
@@ -133,7 +134,7 @@ namespace Organisms
       return str + $" ({state.CountAlive()}/{state.Count()})";
     }
   }
-
+   //Supper class MultiSim starts here
   class MultiSim : ISim
   {
     IEnumerable<ISim> sims;
@@ -199,7 +200,7 @@ namespace Organisms
 
   class TorusNode : INode
   {
-    int x, y, xLim, yLim;
+    int x, y, xLim, yLim; // example of variable declaration 
     Random rng;
 
     public TorusNode (int x, int y, int xLim, int yLim, Random rng)
