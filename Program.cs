@@ -150,7 +150,7 @@ namespace Organisms
         sim.Spawn(n);
     }
 
-    public void Step ()
+    public void Step () // Is tis virtual method ???? this method return nothing becaude of data type "void"
     {
       foreach (ISim sim in sims)
         sim.Step();
