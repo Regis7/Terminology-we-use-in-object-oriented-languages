@@ -62,7 +62,7 @@ Polymorphism can be _**static _or_ dynamic**_. In static polymorphism, the respo
 
 27. **What is type casting?**: Because C# is statically-typed at compile time, after a variable is declared, it cannot be declared again or assigned a value of another type unless that type is implicitly convertible to the variable's type. For example, the string cannot be implicitly converted to int. However, you might sometimes need to copy a value into a variable or method parameter of another type. For example, you might have an integer variable that you need to pass to a method whose parameter is typed as double. Casting is required when information might be lost in the conversion, or when the conversion might not succeed for other reasons.
 
-  Example: _double x = 1234.7;
+   Example: _double x = 1234.7;
             int a = (int)x;
             Console.WriteLine(a);   // output: 1234_
 
