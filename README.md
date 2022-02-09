@@ -30,7 +30,7 @@ By using these codes analyze, and run the console/terminal/command line applicat
 7. Find an example of a method parameter.
 8. Find an example of a method return type.
 
-9. **What is a class?**
+9. **What is a class?**: When you define a class, you define a blueprint(a design) for a data type. This does not actually define any data, but it does define what the class name means. Classes are declared by using the **class** keyword followed by a unique identifier.
 
 10. Find an example of a class.
 11. Find an example of instantiation.
@@ -60,7 +60,7 @@ Polymorphism can be _**static _or_ dynamic**_. In static polymorphism, the respo
 25. Find an example of method overloading.
 26. Find an example of a polymorphic call to an overloaded method.
 
-27. **What is type casting?**
+27. **What is type casting?**: Because C# is statically-typed at compile time, after a variable is declared, it cannot be declared again or assigned a value of another type unless that type is implicitly convertible to the variable's type. For example, the string cannot be implicitly converted to int. However, you might sometimes need to copy a value into a variable or method parameter of another type. For example, you might have an integer variable that you need to pass to a method whose parameter is typed as double. Casting is required when information might be lost in the conversion, or when the conversion might not succeed for other reasons.
 
 28. Find an example of upcasting.
 29. Find an example of downcasting.
