@@ -1,5 +1,5 @@
-# Terminology-we-use-in-object-oriented-languages
-By using these codes analyze, and run the console/terminal/command line application and complete or answer the following challenges or questions.
+# Terminology-we-use-in-object-oriented-languages (C#)
+By using these codes as example analyze, and run the console/terminal/command line application and complete or answer the following challenges or questions.
 
 1. **What is a variable?** A variable is a name given to a storage area that our programs can manipulate. Each variable in C# has a specific type, which determines the size and layout of the variable's memory the range of values that can be stored within that memory and the set of operations that can be applied to the variable.
 
@@ -69,19 +69,24 @@ Polymorphism can be _**static _or_ dynamic**_. In static polymorphism, the respo
 28. Find an example of upcasting.
 29. Find an example of downcasting.
 
-30. **What is an access modifier?**
+30. **What is an access modifier?**: An access specifier defines the scope and visibility of a class member. C# supports the following access specifiers:Public,      Private, Protected, Internal and Protected internal.
+  Let us define **Encapsulation**: Encapsulation is defined 'as the process of enclosing one or more items within a physical or logical package'. Encapsulation, in    object oriented programming methodology, prevents access to implementation details. Encapsulation is implemented by using **access specifiers**.
 
 31. Find an example of an access modifier.
 
 32. **What is the difference between the access modifiers public, private,
-and protected?**
+and protected?**: 
+   - Public access specifier allows a class to expose its member variables and member functions to other functions and objects. Any public member can be accessed from  outside the class.
+   - Private access specifier allows a class to hide its member variables and member functions from other functions and objects. Only functions of the same class can access its private members. Even an instance of a class cannot access its private members.
+   - Protected access specifier allows a child class to access the member variables and member functions of its base class. This way it helps in implementing inheritance.
+    
 
 33. **What are some other forms of polymorphism?**
 
 34. Find an example of method overriding.
 35. Find an example of parametric polymorphism (generics).
 
-36. **What is modularity?**
+36. **What is modularity?**: Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
 
 37. **What does the application do?**
 
