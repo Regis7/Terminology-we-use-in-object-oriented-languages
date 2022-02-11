@@ -40,7 +40,8 @@ By using these codes as example analyze, and run the console/terminal/command li
 13. Find an example of an instance variable.
 14. Find an example of an instance method.
 
-15. **What is a static member?**
+15. **What is a static member?**: We can define class members as static using the static keyword. When we declare a member of a class as static, it means no matter how many objects of the class are created, there is only one copy of the static member.
+The keyword static implies that only one instance of the member exists for a class. Static variables are used for defining constants because their values can be retrieved by invoking the class without creating an instance of it. Static variables can be initialized outside the member function or class definition. You can also initialize static variables inside the class definition.
 
 16. Find an example of a static variable.
 17. Find an example of a static method.
@@ -62,7 +63,7 @@ Polymorphism can be _**static _or_ dynamic**_. In static polymorphism, the respo
 
 27. **What is type casting?**: Because C# is statically-typed at compile time, after a variable is declared, it cannot be declared again or assigned a value of another type unless that type is implicitly convertible to the variable's type. For example, the string cannot be implicitly converted to int. However, you might sometimes need to copy a value into a variable or method parameter of another type. For example, you might have an integer variable that you need to pass to a method whose parameter is typed as double. Casting is required when information might be lost in the conversion, or when the conversion might not succeed for other reasons.
 
-   Example: _double x = 1234.7;
+     Example: _double x = 1234.7;
             int a = (int)x;
             Console.WriteLine(a);   // output: 1234_
 
