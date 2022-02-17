@@ -35,7 +35,7 @@ By using these codes as example analyze, and run the console/terminal/command li
 10. Find an example of a class.
 11. Find an example of instantiation.
 
-12. **What is an instance member?**
+12. **What is an instance member?**: An instance member is essentially anything within a class that is not marked as static. That is, that it can only be used after an instance of the class has been made (with the **new** keyword). This is because instance members belong to the object, whereas static members belong to the class.
 
 13. Find an example of an instance variable.
 14. Find an example of an instance method.
