@@ -48,7 +48,7 @@ The keyword static implies that only one instance of the member exists for a cla
 
 18. **What is object composition?** Under Composition, if the parent object is deleted, then the child object also loses its status. The composition is a special type of Aggregation and gives a part-of relationship. For example, A Car has an engine. If the car is destroyed, the engine is destroyed as well. For example, A Car has an engine. If the car is destroyed, the engine is destroyed as well.
 
-19. **Find an example of object composition**: 
+19. ****Find an example of object composition**:** 
 
 20. **What is overloading/subtype polymorphism?**
 The word polymorphism means having many forms. In object-oriented programming paradigm, polymorphism is often expressed as '**_one interface, multiple functions_**'. 
