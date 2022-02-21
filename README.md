@@ -79,8 +79,7 @@ Polymorphism can be _**static _or_ dynamic**_. In static polymorphism, the respo
 and protected?**: 
    - Public access specifier allows a class to expose its member variables and member functions to other functions and objects. Any public member can be accessed from  outside the class.
    - Private access specifier allows a class to hide its member variables and member functions from other functions and objects. Only functions of the same class can access its private members. Even an instance of a class cannot access its private members.
-   - Protected access specifier allows a child class to access the member variables and member functions of its base class. This way it helps in implementing inheritance.
-    
+   - Protected access specifier allows a child class to access the member variables and member functions of its base class. This way it helps in implementing inheritance.   
 
 33. **What are some other forms of polymorphism?**
 
