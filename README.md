@@ -93,4 +93,4 @@ and protected?**:
 38. **What does the application print?**
 
 39. **What are some other programs that we could build by composing the
-classes of this program in different ways**
+classes of this program in different ways.**
