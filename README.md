@@ -24,7 +24,7 @@ By using these codes as example analyze, and run the console/terminal/command li
 
    **Parameter list** − Enclosed between parentheses, the parameters are used to pass and receive data from a method. The parameter list refers to the type, order, and     number of the parameters of a method. Parameters are optional; that is, a method may contain no parameters.
 
-  **Method body** − This contains the set of instructions needed to complete the required activity.
+    **Method body** − This contains the set of instructions needed to complete the required activity.
 
 6. Find an example of a method signature.
 7. Find an example of a method parameter.
@@ -46,7 +46,7 @@ The keyword static implies that only one instance of the member exists for a cla
 16. Find an example of a static variable.
 17. Find an example of a static method.
 
-18. **What is object composition?** Under Composition, if the parent object is deleted, then the child object also loses its status. The composition is a special type of Aggregation and gives a part-of relationship. For example, A Car has an engine. If the car is destroyed, the engine is destroyed as well. For example, A Car has an engine. If the car is destroyed, the engine is destroyed as well.
+18. **What is object composition?** Under Composition, if the parent object is deleted, then the child object also loses its status. The composition is a special type of Aggregation and gives a part-of relationship. For example, A Car has an engine. If the car is destroyed, the engine is destroyed as well.
 
 19. Find an example of object composition.
 
