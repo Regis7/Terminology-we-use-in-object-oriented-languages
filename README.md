@@ -1,4 +1,4 @@
-# Terminology-we-use-in-object-oriented-language.(C#)
+# Terminology-we-use-in-object-oriented-language (C#)
 By using these codes as example analyze, and run the console/terminal/command line application and complete or answer the following challenges or questions.
 
 1. **What is a variable?** A variable is a name given to a storage area that our programs can manipulate. Each variable in C# has a specific type, which determines the size and layout of the variable's memory the range of values that can be stored within that memory and the set of operations that can be applied to the variable.
