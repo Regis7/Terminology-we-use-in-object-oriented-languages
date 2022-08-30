@@ -134,7 +134,7 @@ namespace Organisms
       return str + $" ({state.CountAlive()}/{state.Count()})";
     }
   }
-   //Supper class MultiSim starts here
+   //Supper class MultiSim starts here.
   class MultiSim : ISim
   {
     IEnumerable<ISim> sims;
