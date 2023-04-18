@@ -26,7 +26,7 @@ By using these codes as example analyze, and run the console/terminal/command li
 
     **Method body** − This contains the set of instructions needed to complete the required activity.
 
-6. Find an example of a method signature
+6. Find an example of a method signature.
 7. Find an example of a method parameter.
 8. Find an example of a method return type.
 
