@@ -4,7 +4,7 @@ By using these codes as example analyze, and run the console/terminal/command li
 1. **What is a variable?** A variable is a name given to a storage area that our programs can manipulate. Each variable in C# has a specific type, which determines the size and layout of the variable's memory the range of values that can be stored within that memory and the set of operations that can be applied to the variable.
 
 2. Find an example of variable declaration
-3. Find an example of variable initialization.
+3. Find an example of variable initialization
 4. Find an example of variable assignment.
 
 5. **What is a method?** A method is a group of statements that together perform a task. Every C# program has at least one class with a method named Main. 
