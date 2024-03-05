@@ -5,7 +5,7 @@ By using these codes as example analyze, and run the console/terminal/command li
 
 2. Find an example of variable declaration.
 3. Find an example of variable initialization.
-4. Find an example of variable assignment
+4. Find an example of variable assignment.
 
 5. **What is a method?** A method is a group of statements that together perform a task. Every C# program has at least one class with a method named Main. 
  To use a method, you need to: _Define the method_ and ****_Call the method_****.
